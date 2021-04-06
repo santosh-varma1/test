@@ -16,6 +16,8 @@ public class LandingPage {
     By navBar = By.xpath("//li[@class='active']");
 
 
+
+
     public WebElement getTitle(){
         return driver.findElement(title);
     }
@@ -23,7 +25,15 @@ public class LandingPage {
     public LoginPage login(){
         driver.findElement(signin).click();
         LoginPage loginPage = new LoginPage(driver);
+
+
+        System.out.println("first");
+        System.out.println("first");
+        System.out.println("first");
+
+
         return loginPage;
+
     }
 
     public WebElement navBar(){
