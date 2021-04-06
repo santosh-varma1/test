@@ -21,6 +21,8 @@ public class ValidateNavBar extends Base {
         driver.findElement(By.xpath("//span//div//div[6]")).click();
         log.info("Closed The Pop-Up");
 
+        System.out.println("changing web automation tools");
+
 
     }
 
