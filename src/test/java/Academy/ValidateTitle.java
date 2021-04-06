@@ -21,6 +21,10 @@ public class ValidateTitle extends Base {
         driver.findElement(By.xpath("//span//div//div[6]")).click();
         log.info("Closed The Pop-Up");
 
+        System.out.println("killer gitl");
+        System.out.println("i am sorry");
+        System.out.println("i cant be alive");
+
     }
 
     @Test
